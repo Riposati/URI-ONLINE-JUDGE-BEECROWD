@@ -1,0 +1,8 @@
+Endereco de rede: 255.255.255.252
+Endereco de broadcast: 255.255.255.255
+Numero de maquinas: 2
+
+Endereco de rede: 255.255.255.252
+Endereco de broadcast: 255.255.255.255
+Numero de maquinas: 2
+
