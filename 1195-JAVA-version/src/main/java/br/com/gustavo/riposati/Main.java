@@ -19,16 +19,16 @@ class Tree {
     static int flag=0;
     static int biggest =0;
 
-    Node insert(int key, Node root) {
+    Node insertNode(int key, Node root) {
 
         if (root == null) {
             root = new Node(key);
         } else {
 
             if (root.key < key) {
-                root.right = insert(key,root.right);
+                root.right = insertNode(key,root.right);
             } else if(root.key > key)
-                root.left = insert(key,root.left);
+                root.left = insertNode(key,root.left);
         }
         return root;
     }
@@ -183,7 +183,7 @@ public class Main {
             } else {
 
                 if (keyAux[0].equals("I")) {
-                    tree.root = tree.insert(Integer.parseInt(keyAux[1]), tree.root);
+                    tree.root = tree.insertNode(Integer.parseInt(keyAux[1]), tree.root);
                 } else if (keyAux[0].equals("P")) {
                     tree.searchNode(Integer.parseInt(keyAux[1]), tree.root);
                 } else if (keyAux[0].equals("R")) {
