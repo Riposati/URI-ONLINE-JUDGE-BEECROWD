@@ -171,6 +171,5 @@ int main() {
         numeroAteSeisDigitos(n);
         printf("\n");
     }
-
     return 0;
 }
