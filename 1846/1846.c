@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX_ENTRIES 48
+#define MAX_ENTRIES 36
 #define MAX_STR_LEN 30
 
 typedef struct {
